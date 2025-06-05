@@ -60,9 +60,13 @@ public class GroqChatAI : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(FetchGroqResponse());
+       // StartCoroutine(FetchGroqResponse());
     }
 
+    public void StartAISpeech()
+    {
+        StartCoroutine(FetchGroqResponse());
+    }
     IEnumerator FetchGroqResponse()
     {
         string url = "https://api.groq.com/openai/v1/chat/completions";
