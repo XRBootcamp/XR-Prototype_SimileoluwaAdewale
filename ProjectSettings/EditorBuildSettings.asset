@@ -6,8 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/1_Project Assets/PrototypeWeek1.unity
     guid: 3f5537d2861be1a45808b1e995c940f8
+=======
+    path: Assets/1_Week 3/PrototypeWeek3.unity
+    guid: 62a4c5e1c2586e046a194bed4954394c
+>>>>>>> Stashed changes
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: fdded73bff4a9fe49a080d9c7098c543,
       type: 2}
